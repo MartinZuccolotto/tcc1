@@ -1,0 +1,97 @@
+.itens {
+    position: absolute;
+    top: 5%;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    top: 6px;
+}
+
+a p {
+    font-size: x-large;
+    color: black;
+    display: inline;
+    position: relative;
+    bottom: 15px;
+    padding-left: 10px;
+}
+
+#logo {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#seta {
+    margin-top: 25px;
+}
+
+hr {
+    width: 100%;
+    height: 3px;
+    background: #37BD45;
+}
+
+.informacoes {
+    position: absolute;
+    top: 50%;
+    /*width: 90%;*/
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+#bnt {
+    margin-top: 20%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#bnt:hover {
+    background-color: rgb(206, 201, 201);
+}
+
+input {
+    margin-top: 5%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    border-color: rgb(236, 234, 234);
+}
+
+input::placeholder {
+    color: black;
+}
+
+.campos {
+    width: 400px;
+    height: 50px;
+}
+
+.campos:hover {
+    background-color: aliceblue;
+    border-color: aliceblue;
+}
+
+h2 {
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+#mostrar-senha {
+    background: white;
+    border-color: rgb(231, 230, 230);
+    cursor: pointer;
+}
+
+#mostrar-senha:hover {
+    background-color: aliceblue;
+}
+
